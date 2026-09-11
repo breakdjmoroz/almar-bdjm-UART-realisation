@@ -1,8 +1,8 @@
 # UART: RTL Design and Verification via UVM
 ---
 ## Navigation
-- [[#About]]
-- [[#Project hierarchy]]
+- [About](#about)
+- [Project hierarchy](#project-hierarchy)
 
 ---
 ## About
@@ -11,4 +11,5 @@ We are interested in studying UVM and SystemVerilog, C, Unity (by ThrowTheSwitch
 
 ## Project hierarchy
 - **docs** - _all of documentation of the project_
+  - **concept.md** - _main ideas, which describes our ambitions about this project_
 - **README.md** - _current file_
