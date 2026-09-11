@@ -1,8 +1,8 @@
 # UART: RTL Design and Verification via UVM
 ---
 ## Navigation
-- [[#About]]
-- [[#Project hierarchy]]
+- [About](#about)
+- [Project hierarchy](#project-hierarchy)
 
 ---
 ## About
