@@ -1,3 +1,5 @@
+![License](https://img.shields.io/badge/license-Beerware-yellow)
+
 # UART: RTL Design and Verification via UVM
 ---
 ## Navigation
