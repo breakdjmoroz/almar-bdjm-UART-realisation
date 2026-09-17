@@ -34,3 +34,14 @@ C4Context
 
     UpdateLayoutConfig($c4ShapeInRow="2")
 ```
+
+## Resources
+
+### The list of tools
+- SystemVerilog
+- UVM
+- Verilator
+- C
+- Frama-C
+- Unity \(by Throw the Switch\)
+- Linux perf utility
