@@ -15,3 +15,22 @@ The goal of the project is the verified RTL realisation of UART.
 - Verify the gold model using formal verification methods
 - Verify the module using the gold model
 
+## Architecture
+
+We'll try to show the idea of the project using the C4 notation:
+
+```mermaid
+C4Context
+    title UART Realisation (C4/Context)
+
+    System(uart, "UART module", "RTL realisation")
+    System(uvm, "UVM testbench", "Is simulated via Verilator")
+    System(gold_model, "Gold model", "Written on C")
+    System(verificator, "C language verification framework")
+
+    Rel(uvm, uart, "Verifies")
+    Rel(uvm, gold_model, "Uses to verify the UART module")
+    Rel(verificator, gold_model, "Verifies")
+
+    UpdateLayoutConfig($c4ShapeInRow="2")
+```
