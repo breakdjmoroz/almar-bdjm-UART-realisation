@@ -120,7 +120,7 @@ An information byte a frame will be formed from on transmitting is stored in the
 There is the STATUS_REG register, that contains some info about the receiving/transmitting process:
 
 ```
-8                                   0
+7                                   0
 ┌───┬───┬───┬───┬────┬────┬────┬────┐
 │ 0 │ 0 │ 0 │ 0 │ DL │ TS │ RF │ FE │
 └───┴───┴───┴───┴────┴────┴────┴────┘
