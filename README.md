@@ -14,5 +14,6 @@ We are interested in studying UVM and SystemVerilog, C, Unity (by ThrowTheSwitch
 ## Project hierarchy
 - **docs** - _all of documentation of the project_
   - **concept.md** - _main ideas, which describes our ambitions about this project_
+  - **design.md** - _high-level and detailed design, scope of the project, declarations and definitions_
 - **LICENSE** - _beerware license_
 - **README.md** - _current file_
