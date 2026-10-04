@@ -103,10 +103,10 @@ So the information frame looks like this:
 ┌───┬────┬────┬────┬────┬────┬────┬────┬────┬───┐
 │ 0 │ x0 │ x1 │ x2 │ x3 │ x4 │ x5 │ x6 │ x7 │ 1 │
 └───┴────┴────┴────┴────┴────┴────┴────┴────┴───┘
- --- --------------------------------------- ---
- ^                     ^                     ^
- start                info                  stop
- bit                  bits                   bit
+ --- --------------------------------------- ----
+ ^                     ^                        ^
+ start                info                   stop
+ bit                  bits                    bit
 ```
 
 A byte to send/obtain starts from the last significant bit \(x0\) in the sequence.
@@ -120,7 +120,7 @@ An information byte a frame will be formed from on transmitting is stored in the
 There is the STATUS_REG register, that contains some info about the receiving/transmitting process:
 
 ```
-_8_                                 _0_
+8                                   0
 ┌───┬───┬───┬───┬────┬────┬────┬────┐
 │ 0 │ 0 │ 0 │ 0 │ DL │ TS │ RF │ FE │
 └───┴───┴───┴───┴────┴────┴────┴────┘
@@ -143,7 +143,8 @@ The TX_REG is **write-only**. The RX_REG and STATUS_REG are **read-only**.
 
 The register map of the UART model:
 
-
+| Alias | Address |
+| ------ | ------ |
 | TX_REG | UART_BASE_ADDR + 0x00 |
 | RX_REG | UART_BASE_ADDR + 0x01 |
 | STATUS_REG | UART_BASE_ADDR + 0x02 |
