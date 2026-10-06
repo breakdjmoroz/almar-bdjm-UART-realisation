@@ -129,7 +129,7 @@ There is the STATUS_REG register, that contains some info about the receiving/tr
 _Where:_
 
 0. FRAME\_ERROR bit - _claims 1, when the stop bit of a frame isn't HIGH; claims 0 if there are no any errors_
-1. RECEIVE\_FULL bit - _claims 1, when the RX gets a frame and writes it to RX\_REG; claims 0, when the RX\_REG is red_
+1. RECEIVE\_FULL bit - _claims 1, when the RX gets a frame and writes it to RX\_REG; claims 0, when the RX\_REG is read_
 2. TRANSMITT\_START bit - _claims 1, when there is a write to TX\_REG and the transmitting is started;
  when transmitting is finished, returns to 0_
 3. DATA\_LOST bit - _claims 1, when either the RF bit is 1 and the next frame comes or the TS bit is 1 and there is a write to TX\_REG.
