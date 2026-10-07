@@ -1,4 +1,5 @@
 # Concept of the project
+! [Version](https://shields.io/badge/version-0.0.1-white)
 
 ## Vision
 
