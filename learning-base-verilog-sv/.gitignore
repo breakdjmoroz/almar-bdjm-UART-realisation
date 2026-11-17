@@ -1,0 +1,9 @@
+obj_dir/
+
+sim
+*.vcd
+*.fst
+
+*.o
+*.out
+*.exe
