@@ -17,3 +17,4 @@ We are interested in studying UVM and SystemVerilog, C, Unity (by ThrowTheSwitch
   - **design.md** - _high-level and detailed design, scope of the project, declarations and definitions_
 - **LICENSE** - _beerware license_
 - **README.md** - _current file_
+- **learning-base-verilog-sv** - folder with basics of languages, that will be useful in final project
