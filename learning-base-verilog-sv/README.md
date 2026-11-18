@@ -1,5 +1,4 @@
 
-```markdown
 # Verilog & SystemVerilog Examples
 
 This directory contains a collection of hardware design and verification examples written in Verilog and SystemVerilog. It is intended for educational purposes, practical exercises, and understanding digital logic design fundamentals.
